@@ -1,0 +1,90 @@
+from: Jamie Byun
+reply: its all good :slightly_smiling_face:
+from: Sean Munson
+reply: Yes, sorry about that!
+from: Mulki Mohamed
+reply: It’s a typo and instead should be hw1feed.txt
+from: Jamie Byun
+post: where’s  hw2feed.txt?
+from: Alex Gilbert
+post: Hey all, if you're still having trouble with using your terminal to find your homework and interacting with git - or even if you just need a refresher on how to use either - we've posted a brief walkthrough/tutorial here: <https://canvas.uw.edu/courses/1118657/pages/using-your-terminal-+-git>
+from: Sean Munson
+reply: also, to emphasize one of the comments — different operating systems and and encodings will result in different totals!
+from: Sean Munson
+post: And one more thing — for Canvas uploads, don’t worry about screenshots fro HW1. Canvas uploads are also optional, but we still recommend uploading your finished hw1-part1.py, hw1-part2.py, hw1-part3.py just in case there are issues with github classroom (it’s still new to us)
+from: Sean Munson
+post: One other note, there’s a typo on line 31 referring to hw2feed; we that should be hw1feed.
+from: Sean Munson
+post: For hw1-part3.py, your character count can include or not include end of line (\n) characters. We were a little inconsistent between the examples and the instructions, so either is fine.
+from: Lynda Nguyen
+reply: Great, thanks so much!
+from: Sean Munson
+reply: also, if it helps to look at the Zelle book to decide if it is helpful for you, TAs and I have copies (one TA copy is on Christina’s desk)
+from: Sean Munson
+reply: A free online book: Think Python: An Introduction to Software Design (2nd Edition) by Allen Downey - <http://greenteapress.com/wp/think-python-2e/>  Optional: Python Programming: An Introduction to Computer Science. By John Zelle. Franklin, Beedle &amp; Associates. We are using Python 3, so avoid the first edition. We provide reading recommendations from the third edition. - <http://amzn.to/2wHRAS5>
+from: Lynda Nguyen
+reply: hello! What is the recommended textbook(s) for the course?
+from: Sean Munson
+post: Hi all — I’ve added the supplement on string methods mentioned in HW1 to Canvas, under files, slides <https://canvas.uw.edu/courses/1118657/files/folder/slides/02%20-%20Strings%20and%20lists#>
+from: Sean Munson
+post: <@U6XHUEVQB> shared a file: <https://hcde310.slack.com/files/U6XHUEVQB/F7DQR1UUW/Current_Office_Hours|Current Office Hours>
+from: Sean Munson
+post: For hw1-part3, if you are running Python in a non-English environment (e.g., your operating system is configured to a different location), you *may* need to add `encoding='UTF-8'` to when you open a file. E.g., `f = open('myfile.txt','r',encoding='utf-8')`  Thanks to <@U7AHD4HD5> for bringing this up.
+from: Mimi Peach
+reply: I think it would help a lot.
+from: Sean Munson
+reply: &amp; that lost and found is at the upstairs information desk 
+from: Sean Munson
+reply: My plan is to not record using panopto - my experience has been that it doesn’t work great with the mixed lab/lecture format. I can revisit, though, if you think it would help.
+from: Kelly Xu
+post: found a watch left behind after class, it’ll b in the lost and found in ode 
+from: Riah Buchanan
+post: Hi - will this class be recorded using panopto? 
+from: Christina Chung
+post: If you scroll down to the bottom of this page, there are five steps you need to do for every assignment
+from: Christina Chung
+post: Here is a useful reference (which is apparently hard to find) for what to do with git: <https://canvas.uw.edu/courses/1118657/pages/introduction-to-git>
+from: Keristian Farra
+reply: I am there, can I get help as well?
+from: Christina Chung
+reply: Sieg Hall 422 (Student lounge)
+from: Jamie Byun
+post: where is it?
+from: Christina Chung
+reply: Yes, in 8 minutes!
+from: brian do
+post: hi is office hours still scheduled today - im  a bit stuck and would like help please
+from: Sean Munson
+reply: Hi Sam. I’ll post it by class Tuesday — I’ve been working on it today.  It’ll be due a week from tomorrow.
+from: Samuelle Saliba
+post: Hi, I was wondering when hw1 would be available on gitclassroom, is it due on tuesday?
+from: helene shea
+reply: oh ok! thank you. :blush:
+from: Sean Munson
+reply: Whichever is easiest for you is okay. Sorry for the inconsistency; this was one of the things that didn’t transition perfectly when I updated the assignments for this year.
+from: helene shea
+post: hello! should we hand in a pdf with parts 6, 7, and 8 or should we hand in hw0.py, hw0.txt, and our screenshot? the instructions for the homework says the following:  &gt; Attach a single document (PDF preferred), containing &gt; A screenshot of running your edited hw0.py (part 6) &gt; Text you write for parts 7 and 8, in hw0.txt  &gt; To turn it in on Canvas, visit the course page, click on assignments, find hw0, and upload hw0.py, hw0.txt, and your screenshot.  not quite sure which set of instructions to follow. thank you in advance! :blush:
+from: Asikur Rahman
+reply: Okay, thanks.
+from: Sean Munson
+reply: that should be okay. It used Python 3, which is what matters most. Some of the readings may not line up perfectly (and some of the review questions will be different), so just be aware of that when I suggest readings
+from: Asikur Rahman
+post: Would it be okay to use the second edition of Python Programming: An Introduction to Computer Science for this course?
+from: Kelly Xu
+post: <!here> currently hosting office hours in sieg 422, if you need help or have questions :grin:
+from: Alex Gilbert
+post: <!here> my first office hours are today in the hcde student lounge (sieg 422) at 10am, if you need help with setup or have any questions about the class or even about life in general!
+from: Alex Gilbert
+post: <@U7AAFRR51> if you visit your repository on the hcde310 GitHub (probably called hw0-&lt;yourgithubusername&gt;) you should be able to view the contents of hw0 online and you can check if it's the code you wanted uploaded!
+from: Sam O'Brien
+post: I'm having some trouble uploading hw0 github classroom.  Is there any way to check if the homework was successfully pushed to github?
+from: Christina Chung
+post: Office hours are in the student lounge in the Sieg Hall (422).
+from: Samuelle Saliba
+post: where are the office hours? I'm not sure if I just missed it but i cant seem to find it
+from: Sean Munson
+post: <@U6XHUEVQB> uploaded a file: <https://hcde310.slack.com/files/U6XHUEVQB/F7BEDTW94/pasted_image_at_2017_09_28_01_33_pm.png|and our revised tentative office hour schedule>
+from: Sean Munson
+post: One other note — DRS is looking for at least two notetakers to assist a student this quarter. Please consider notetaking as it will help your peer gain access to material from class. Notetakers will receive a letter of recommendation for their service from the Director of Disability Resources for Students when the quarter is complete.  (I also think that taking notes meant to be understandable by others can also be a valuable exercise for yourself.)  Now that you all know the structure of the class, and the general plan to make most slides available before class starts, please consider this request and message me privately if you’d be willing to help take notes.
+from: Sean Munson
+post: hi all — some of you are finding that when you first open your hw in pycharm, the run button is disabled. To get around this (after you have selected a Python interpreter), you should be able to right click on hw0.py in the sidebar and select run
