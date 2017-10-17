@@ -114,7 +114,7 @@ print('=== 10 ===')
 #
 # put your code here
 import csv
-with open('hw2.csv', 'w') as f:
+with open('dinocise.csv', 'w') as f:
     w = csv.DictWriter(f, dinocount.keys())
     f.write('count, type\n')
     for key in dinocount:
