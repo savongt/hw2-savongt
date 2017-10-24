@@ -120,3 +120,39 @@ with open('dinocise.csv', 'w') as f:
     for key in dinocount:
         f.write(key + ", " + str(dinocount.get(key)) + ", \n")
 
+def contributorCounts(filename):
+    myfile = json.load(open(filename))
+    cc = {}
+    for msg in myfile['messages']:
+        if msg['username'] in cc:
+            cc[msg['username']]["posts"] = cc[msg['username']]["posts"] + 1
+        else:
+            cc[msg['username']] = {"posts": 1, "comments": 0}
+        for reply in msg['replies']:
+            if reply['username'] in cc:
+                cc[reply['username']]["comments"] = cc[msg['username']]["comments"] + 1
+            else:
+                cc[msg['username']] = {"posts": 0, "comments": 1}
+    return cc
+postWordCount = {}
+f = open(fname,'r',encoding='utf-8')
+words = (f.read()).lower()
+stripWordPunctuation(words)
+lineList = words.split("\n")
+z = 0
+x = 0
+count = 0
+wordsCount = 0
+for item in lineList:
+    if (fieldType(lineList[z]) != 'reply') and (fieldType(lineList[z]) != 'from'):
+        thWords = lineList[z].split()
+        for wrd in thWords:
+            stripWordPunctuation(wrd)
+            if wrd in postWordCount:
+                postWordCount[wrd] = postWordCount[wrd] + 1
+
+            else:
+                postWordCount[wrd] = 1
+
+    z+=1
+keys2 = postWordCount.keys()

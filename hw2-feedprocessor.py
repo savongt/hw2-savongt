@@ -186,25 +186,27 @@ print("== part 8 ==")
 
 # uncomment and begin editing from the next line:
 def wordFreq(filename, fieldtype):
-    f = open(filename, 'r', encoding='utf-8')
-    words = (f.read()).lower()
-    stripWordPunctuation(words)
-    lineList = words.split("\n")
-    z = 0
-    for item in lineList:
-        if (fieldType(lineList[z]) != 'reply') and (fieldType(lineList[z]) != 'from'):
-            thWords = lineList[z].split()
-            for wrd in thWords:
-                stripWordPunctuation(wrd)
-                if wrd in postWordCount:
-                    postWordCount[wrd] = postWordCount[wrd] + 1
+    if (fieldtype != 'reply') or (fieldType != 'post'):
+        f = open(filename, 'r', encoding='utf-8')
+        words = (f.read()).lower()
+        stripWordPunctuation(words)
+        lineList = words.split("\n")
+        postWordCount = {}
+        z = 0
+        for item in lineList:
+            if (fieldType(lineList[z]) != 'reply') and (fieldType(lineList[z]) != 'from'):
+                thWords = lineList[z].split()
+                for wrd in thWords:
+                    stripWordPunctuation(wrd)
+                    if wrd in postWordCount:
+                        postWordCount[wrd] = postWordCount[wrd] + 1
 
-                else:
-                    postWordCount[wrd] = 1
-        z += 1
-    return postWordCount[wrd]
-# to test ,you can uncomment and run these lines:
-
+                    else:
+                        postWordCount[wrd] = 1
+            z += 1
+        return postWordCount[wrd]
+    # to test ,you can uncomment and run these lines:
+print(postWordCount)
 wfp = wordFreq(fname,'post')
 if wfp["environment"] == 1 and wfp["file"] == 3 and wfp["pycharm"] == 1 and wfp.get("post",0) == 0:
     print("Looks like wordFreq() works fine for posts")
@@ -215,5 +217,5 @@ wfr = wordFreq(fname,'reply')
 if wfr["christina’s"] == 1 and wfr["be"] == 5 and wfr.get("reply",0) == 0:
     print("Looks like wordFreq() works fine for replies")
 else:
-    print("We got some errors with wordFreq() for replies.")
+   print("We got some errors with wordFreq() for replies.")
 
